@@ -1,0 +1,34 @@
+{
+    "name": "frontend",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+        "@angular/common": "22.1.2",
+        "@angular/compiler": "22.1.2",
+        "@angular/core": "22.1.2",
+        "@angular/forms": "22.1.2",
+        "@angular/platform-browser": "22.1.2",
+        "@angular/router": "22.1.2",
+        "rxjs": "7.8.2",
+        "uikit": "3.25.21"
+    },
+    "devDependencies": {
+        "@angular/cli": "22.1.4",
+        "@angular/build": "22.1.4",
+        "@angular/compiler-cli": "22.1.2",
+        "typescript": "6.0.3"
+    },
+    "browserslist": [
+        "last 1 Chrome version",
+        "last 1 Edge version",
+        "last 1 Firefox version",
+        "last 1 Safari version",
+        "not dead"
+    ],
+    "scripts": {
+        "update": "npx npm-check-updates -u",
+        "restore": "npm install",
+        "start": "ng serve",
+        "build": "ng build"
+    }
+}
